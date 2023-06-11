@@ -1,0 +1,13 @@
+.bike-cards-container{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    margin-left: 200px;
+    margin-top: 1px;
+    
+}
+.bike-header{
+    color: rgb(23,23,23);
+}
+.pop-up-btn{
+    border: none;
+}

@@ -1,0 +1,33 @@
+.navbar-container {
+  background-color: rgb(255, 255, 255);
+  z-index: 10;
+}
+.customText {
+  font-size: 25px;
+  font-family: "Open Sans", sans-serif;
+  transform: 0.15s;
+  -webkit-transform: 0.15s;
+  -moz-transform: 0.15s;
+  -ms-transform: 0.15s;
+  -o-transform: 0.15s;
+  color: rgb(121, 121, 121);
+  margin: 0 5px 0 0;
+}
+
+.logoImage:hover {
+  opacity: 0.8;
+}
+.customText:hover {
+  border-color: rgba(149, 157, 165, 0.2);
+  background-color: rgba(121, 121, 121, 0.068);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.customText-left {
+  margin-right: 13px;
+}
+.cart-right {
+  margin-left: 5px;
+}
+.cart-right:hover {
+  opacity: 0.7;
+}

@@ -1,0 +1,42 @@
+
+.hidden-logo-image {
+  position: fixed;
+  width: 200px;
+  height: auto;
+  top: 0px;
+  z-index: -5;
+  margin-top: -5;
+}
+.left-side-navigation-container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(23, 23, 23);
+  width: 200px;
+  top: 100px;
+}
+
+.bike-card-template {
+  border: none;
+  margin-bottom: 0px;
+  border-radius: 10px;
+  margin: 8px;
+  background-color: rgb(255, 255, 255);
+  transition: 1s;
+  -webkit-transition: 0.9s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+
+.bike-card-template:hover {
+    scale:1.05 ;
+}
+
+
+.bike-desc{
+  color: rgba(23, 23, 23);
+  width: 100%;
+}
+

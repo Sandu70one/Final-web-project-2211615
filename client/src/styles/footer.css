@@ -1,0 +1,33 @@
+.description{
+    color: aliceblue;
+    font-weight: 600;
+}
+.epic-header{
+    color: #D61A3C ;
+}
+.footer-btn{
+    background-color: #D61A3C;
+    border: none;
+    color: aliceblue;
+}
+.footer-btn:hover{
+    background-color: #d61a3ca8;
+
+}
+.component-card{
+    background-color:rgb(23, 23, 23) ;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.icon-img{
+    scale: 0.8;
+    opacity: 0.8;
+}
+.icon-img:hover{
+    scale: 0.9;
+    opacity: 0.9;
+}

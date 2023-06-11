@@ -1,0 +1,40 @@
+.main-container {
+  display: grid;
+  grid-template-columns: 3fr 4fr;
+  background-color: rgb(23, 23, 23);
+  height: 500px;
+  color: aliceblue;
+  margin-top: 8vh;
+}
+.open-hours-container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.header-text {
+  margin: 20px 0 0 10px;
+  font-size: 35px;
+  transition: 0.8s;
+  margin-left: 20px;
+  -webkit-transition: 0.8s;
+  -moz-transition: 0.8s;
+  -ms-transition: 0.8s;
+  -o-transition: 0.8s;
+}
+
+.day-time {
+    font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  margin-left:   80px;
+  margin-top: 40px;
+}
+.time{
+    margin-left: 60px;
+}
+
+.map-container {
+  background-color: rgb(116, 116, 116);
+}
+
